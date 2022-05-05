@@ -1,0 +1,131 @@
+@font-face {
+  font-family: 'Koulen';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/koulen/v25/AMOQz46as3KIBPemhXo8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/raleway/v27/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVtaorCIPrE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/raleway/v27/1Ptug8zYS_SKggPNyC0ITw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/raleway/v27/1Ptug8zYS_SKggPNyC0ITw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+    text-align: center;
+    background-color: #FFDAC7;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-family: "Koulen";
+    font-size: 90px;
+    padding: 0px;
+    margin-bottom: 15px;
+    color: #B36C88;
+    padding-top: 15px;
+    line-height: 100px;
+}
+
+h2 {
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #420516;
+    line-height: 50px;
+}
+
+footer {
+    font-family: "Raleway";
+    padding-bottom: 5px;
+}
+
+/* Table Tags */
+
+table, th, td {
+    border: 1px solid #FFDAC7;
+}
+
+table {
+    display: inline-block;
+    margin: 35px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+th {
+    background-color: #FFADAD;
+    color: #420516;
+    height: 40px;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: "Koulen";
+}
+
+.text {
+    background-color: #FFEFBC;
+    color: #191919;
+    height: 30px;
+    font-family: "Raleway";
+    font-weight: 400;
+}
+
+/* Image Tags */
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+#border:hover {
+    border: 3px solid black;
+}
+
+#flip:hover {
+    transform: scaleX(-1);
+}
+
+#round:hover {
+    border-radius: 100%;
+}
+
+#rounded:hover {
+    border-radius: 20px;
+}
+
+#filter:hover {
+    filter: grayscale(100%);
+}
+
+#transparent:hover {
+    opacity: 0.5;
+}
+
+
+
